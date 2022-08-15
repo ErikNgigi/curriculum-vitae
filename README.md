@@ -17,7 +17,7 @@
   }
   ``` 
   and deleting the rest of sections.
-- Of course, if you want to go further you can check the [muratcan_cv.cls](https://github.com/muratcankaracabey/latex_cv/blob/master/muratcan_cv.cls) file. This is my first latex project so it might be error-prone and not as generic as possible(I still have some warnings that needs to be resolved). However I tried to make it understandable for later contributions.
+- Of course, if you want to go further you can check the [eric_cv.cls](https://github.com/ErikNgigi/curriculum-vitae/blob/master/eric_cv.cls) file. This is my first latex project so it might be error-prone and not as generic as possible(I still have some warnings that needs to be resolved). However I tried to make it understandable for later contributions.
 - You can change the header content with the ```set..``` commands in the beginning and also the the color of the theme.
 - Just replace the actual texts with your related education/experience and also don't forget to replace ```\lipsum[1][1-12]\par``` with actual texts. That package is just used for illustration reasons. Since I am not sure what to write to those parts of the resume right now.
   
