@@ -3,6 +3,7 @@
 - This CV is inspired by the design of [Awesome CV](https://github.com/posquit0/Awesome-CV). 
 
 ### How does it look?
+![cv](https://user-images.githubusercontent.com/50109792/184626098-ca18edb2-1147-4a98-bfb9-cf5ffe90c634.png)
 
 ### How to use it?
 - With minimum effort, you can use the [curriculum_vitae.tex](https://github.com/ErikNgigi/curriculum-vitae/blob/main/curriculum_vitae.tex) as it is provided with the high level functions such as ```\datedexperience```, ```\explanation```, ```\explanationdetail``` to add elements to your CV. You can create skill elements with ```\newcommand{\skillname{\createskill{<Skill Category>}{<explanation>}}}``` and finally create the list of skills with ```\createskills{<comma seperated skills list>}```. 
