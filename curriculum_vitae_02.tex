@@ -1,0 +1,96 @@
+\documentclass{eric_cv}
+
+\setname{Eric Moses}{Ngigi}
+\setaddress{Nairobi/Kenya}
+\setmobile{+254 725 686 201}
+\setmail{ericmosesngigi@gmail.com}
+\setposition{Work Student} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/ericngigi-dev} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/ErikNgigi} %you can play with color of the template (red is also nice..)
+\setwebsite{https://erikngigi.github.io} %you can play with color of the template (red is also nice..)
+\setthemecolor{red} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Summary}{%
+I work on digital projects for SMEs, startups and global clients, remotely or on-site. I build applications that range from web sites to backend services, applying industry best practices with focus on quality and maintainability. Actively looking for opportunities as a  Web Developer.
+}
+%
+%Education
+\section{Education} 
+    \datedexperience{Dedan Kimathi University of Technology}{2015-2020} 
+    \explanation{Bachelor of Science Business Information Technology} 
+     \explanationdetail{\coloredbullet\ % 
+     Project: Automobile Parts Digital Catalogue
+     }
+    % \datedexperience{Technical University of Munich}{2019-2022} 
+    % \explanation{M.S in Informatics} 
+    % \explanationdetail{\coloredbullet\ %
+     % \lipsum[1][3-4]\par %replace this part with actual text
+     % }
+%
+% Experience
+\section{Work Experience}
+    %
+    \datedexperience{Freelance Software Web Developer}{2022 - Now}
+    \explanation{Web Developer}
+    \explanationdetail{\coloredbullet\ %
+    Developing websites for clients on Fiverr.
+    }
+    \explanationdetail{\coloredbullet\ %
+    Developing scripts on TradingView using pinescript.
+    }
+    %
+    \datedexperience{Nyeri Water and Sanitation Company}{2021 / Kenya} 
+    \explanation{Web Developer} 
+    \explanationdetail{\coloredbullet\ %
+     Aided in the designing and the implementing an improved architecture for web applications.  
+     }
+    \explanationdetail{\coloredbullet\ %
+     The use of Amazon S3 and CloudFront for CDN builds, improving performance, scaling, and caching capabilities.
+    }
+    \explanationdetail{\coloredbullet\ %
+     Revamp reporting dashboards for management users resulting in faster queries.
+    }
+    \explanationdetail{\coloredbullet\ %
+    Established company conventions/standards and documented all internal processes.
+    }
+    %
+    \datedexperience{Scouts Organization}{2020 / Kenya} 
+    \explanation{Web Developer} 
+    \explanationdetail{\coloredbullet\ %
+     Implemented hardened security for authentication in web applications using the latest OAuth 2.0 standards.
+     }
+    \explanationdetail{\coloredbullet\ %
+    Refactored front end applications to use modern standards, reduce boilerplate
+    }
+%
+% Skills
+\section{Skills}
+    %
+    \newcommand{\skillone}{\createskill{Wed Development}{\textbf{\emph{Experienced:}} \ \  HTML5  \cpshalf CSS \ \ \textbf{\emph{Familiar:}} \ \ Javascript \cpshalf SQL \cpshalf PostgreSQL \cpshalf bash/shell \cpshalf Json}}
+    %
+    \newcommand{\skilltwo}{\createskill{Software Development}{Programming Paradigms \cpshalf GIT \cpshalf CLI \cpshalf Agile Methodology \cpshalf DevOps Lifecycles}}
+    %
+    \newcommand{\skillthree}{\createskill{Frameworks \ \& \ Libraries}{React \cpshalf Vue \cpshalf Tailwind CSS \cpshalf Materia UI \cpshalf SASS}}
+    %
+    \newcommand{\skillfour}{\createskill{Package Managers}{\textbf{\emph{Experienced:}} \ \ npm \cpshalf yarn}}
+    %
+    \newcommand{\skillfive}{\createskill{Devops, Containers}{\textbf{\emph{Experienced:}} \ \  Docker \ \ \textbf{\emph{Familiar:}} \ \ Kubernetes}}
+    %
+    \newcommand{\skillsix}{\createskill{Cloud}{Amazon AWS \cpshalf Google Cloud \cpshalf Azure}}
+    %
+    \newcommand{\skillseven}{\createskill{Languages}{\textbf{\emph{Fluent:}} \ \ English \ \ \textbf{\emph{Beginner:}} \ \  Japanesse }}
+    %
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillfive, \skillsix, \skillseven}
+%
+%Footnote
+\createfootnote
+\end{document}
